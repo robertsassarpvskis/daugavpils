@@ -11,12 +11,12 @@ const HorizontalNews = ({ item }) => {
                 <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-cover aspect-square"
+                    className="w-auto h-full object-cover aspect-square"
                 />
             </div>
 
             {/* Content Section */}
-            <div className="flex-1 p-4 flex flex-col justify-between">
+            <div className="flex-1 p-2 md:p-4 flex flex-col justify-between">
                 <div>
                     <div className="flex items-center justify-between mb-2">
                         <span
